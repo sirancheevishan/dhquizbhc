@@ -1,3 +1,208 @@
+html {
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#dvguidelines {
+  padding: 2%;
+}
+.btn-quiz {
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 16px;
+  border: 3px solid #da4453;
+  background: transparent;
+  height: 33px;
+  margin-bottom: 4%;
+  font-size: 14px;
+  width: 16%;
+}
+.con-centre {
+  justify-content: center;
+  display: flex;
+}
+.btn-quiz:hover {
+  margin-bottom: 4% !important;
+  font-family: cursive !important;
+  font-weight: bold !important;
+  border-radius: 16px !important;
+
+  background: #da4453 !important;
+  height: 33px !important;
+  color: white !important;
+  font-size: 14px !important;
+  width: 16% !important;
+}
+#dvguidelines ul {
+  font-family: cursive;
+  font-size: 16px;
+  list-style: none;
+  margin: 2em;
+  padding: 0;
+}
+#dvguidelines ul li {
+  margin: 0;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+  position: relative;
+}
+#dvguidelines ul li:after {
+  content: "";
+  height: 0.4em;
+  width: 0.4em;
+  background: #d2153a;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.25em;
+  left: 0;
+}
+
+.txtcenter {
+  text-align: center;
+}
+.dvquiz {
+  background: white;
+  margin-top: 1%;
+}
+.clsqus {
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+#dvquesbody {
+  font-size: 20px;
+  font-family: auto;
+  padding: 2%;
+}
+.clsqusoption ul {
+  margin-top: 1%;
+}
+.clsqusoption ul li {
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  border-radius: 56px;
+  border: 1px solid #da4453;
+  background: transparent;
+  padding: 1%;
+  /* padding-right: 4%;
+  padding-left: 3%; */
+  margin-left: 1%;
+  margin-right: 2%;
+  font-size: 14px;
+}
+.clsqusoption ul li:hover {
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  border-radius: 56px;
+  border: 1px solid #da4453;
+  background: linear-gradient(to right, #89216b, #da4453);
+  padding: 1%;
+  color: white;
+  /* padding-right: 4%;
+  padding-left: 3%; */
+  margin-left: 1%;
+  margin-right: 2%;
+  font-size: 14px;
+}
+
+.clsqusoption ul li:active {
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  border-radius: 56px;
+  border: 1px solid #da4453;
+  background: linear-gradient(to right, #89216b, #da4453);
+  padding: 1%;
+  color: white;
+  /* padding-right: 4%;
+  padding-left: 3%; */
+  margin-left: 1%;
+  margin-right: 2%;
+  font-size: 14px;
+}
+.clsqusoption ul li.active {
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  border-radius: 56px;
+  border: 1px solid #da4453;
+  background: linear-gradient(to right, #89216b, #da4453);
+  padding: 1%;
+  color: white;
+  margin-left: 1%;
+  margin-right: 2%;
+  font-size: 14px;
+}
+.clsqusoption ul li label {
+  padding: 1%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-finish {
+  font-family: auto;
+  margin-top: 3%;
+  font-weight: bold;
+  border-radius: 0;
+  width: 25%;
+  font-size: 17px;
+  border: 3px solid #da4453;
+  background: transparent;
+  height: 33px;
+  margin-bottom: 4%;
+}
+.btn-finish:hover {
+  font-family: auto;
+  margin-top: 3%;
+  font-weight: bold;
+  border-radius: 0;
+  width: 25%;
+  color: white;
+  background: #da4453;
+  font-size: 17px;
+  border: 3px solid #da4453;
+
+  height: 33px;
+  margin-bottom: 4%;
+}
+.btn-finish.active {
+  font-family: auto;
+  margin-top: 3%;
+  font-weight: bold;
+  border-radius: 0;
+  width: 25%;
+  color: white;
+  background: #da4453;
+  font-size: 17px;
+  border: 3px solid #da4453;
+
+  height: 33px;
+  margin-bottom: 4%;
+}
+.clsrescorespn {
+  font-size: 23px;
+  font-family: auto;
+}
+.clsresspn {
+  text-align: center;
+  font-size: 37px;
+  font-family: cursive;
+  color: #ad3161;
+}
+.m-t-1 {
+  margin-top: 1%;
+}
 .App {
   text-align: center;
 }
